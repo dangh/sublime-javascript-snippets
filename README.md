@@ -53,7 +53,7 @@ debugger
 ### [ae] addEventListener
 
 ```javascript
-${1:document}.addEventListener('${2:event}', function(e) {
+${1:document}.addEventListener('${2:event}', function (e) {
 	${3}
 })
 ```
@@ -165,7 +165,7 @@ ${1:document}.querySelectorAll('${2:selector}')
 ### [fe] forEach
 
 ```javascript
-${1:myArray}.forEach(function(${2:elem}) {
+${1:myArray}.forEach(function (${2:elem}) {
 	${3}
 })
 ```
@@ -185,7 +185,7 @@ for (${1:prop} in ${2:obj}) {
 ### [fn] function
 
 ```javascript
-function ${1:methodName}(${2:arguments}) {
+function ${1:methodName} (${2:arguments}) {
 	${3}
 }
 ```
@@ -193,7 +193,7 @@ function ${1:methodName}(${2:arguments}) {
 ### [afn] anonymous function
 
 ```javascript
-function(${1:arguments}) {
+function (${1:arguments}) {
 	${2}
 }
 ```
@@ -201,7 +201,7 @@ function(${1:arguments}) {
 ### [pr] prototype
 
 ```javascript
-${1:ClassName}.prototype.${2:methodName} = function(${3:arguments}) {
+${1:ClassName}.prototype.${2:methodName} = function (${3:arguments}) {
 	${4}
 }
 ```
@@ -209,7 +209,7 @@ ${1:ClassName}.prototype.${2:methodName} = function(${3:arguments}) {
 ### [iife] immediately-invoked function expression
 
 ```javascript
-(function(${1:window}, ${2:document}) {
+(function (${1:window}, ${2:document}) {
 	${1}
 })(${1:window}, ${2:document})
 ```
@@ -253,7 +253,7 @@ JSON.stringify(${1:obj})
 ### [si] setInterval
 
 ```javascript
-setInterval(function() {
+setInterval(function () {
 	${2}
 }, ${1:delay})
 ```
@@ -261,7 +261,7 @@ setInterval(function() {
 ### [st] setTimeout
 
 ```javascript
-setTimeout(function() {
+setTimeout(function () {
 	${2}
 }, ${1:delay})
 ```
@@ -308,14 +308,14 @@ require('${1:module}')
 ### [desc] describe
 
 ```javascript
-describe('${1:description}', function() {
+describe('${1:description}', function () {
 	${2}
 })
 ```
 ### [ita] it asynchronous
 
 ```javascript
-it('${1:description}', function(done) {
+it('${1:description}', function (done) {
 	${2}
 })
 ```
@@ -323,7 +323,7 @@ it('${1:description}', function(done) {
 ### [its] it synchronous
 
 ```javascript
-it('${1:description}', function() {
+it('${1:description}', function () {
 	${2}
 })
 ```
