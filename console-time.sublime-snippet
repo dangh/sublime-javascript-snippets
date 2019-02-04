@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+console.time(${1:label})
+]]></content>
+	<tabTrigger>ct</tabTrigger>
+	<scope>source.js, source.jsx, source.ts</scope>
+	<description>console.time</description>
+</snippet>

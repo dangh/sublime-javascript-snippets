@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+console.table(${1:arr|obj})
+]]></content>
+	<tabTrigger>ctbl</tabTrigger>
+	<scope>source.js, source.jsx, source.ts</scope>
+	<description>console.table</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+console.group('${1:label?}')
+]]></content>
+	<tabTrigger>cg</tabTrigger>
+	<scope>source.js, source.jsx, source.ts</scope>
+	<description>console.group</description>
+</snippet>

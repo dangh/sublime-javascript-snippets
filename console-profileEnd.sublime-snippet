@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+console.profileEnd('${1:profileName?}')
+]]></content>
+	<tabTrigger>cpe</tabTrigger>
+	<scope>source.js, source.jsx, source.ts</scope>
+	<description>console.profileEnd</description>
+</snippet>

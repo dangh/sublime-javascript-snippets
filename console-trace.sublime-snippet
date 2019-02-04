@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+console.trace()
+]]></content>
+	<tabTrigger>ctr</tabTrigger>
+	<scope>source.js, source.jsx, source.ts</scope>
+	<description>console.trace</description>
+</snippet>

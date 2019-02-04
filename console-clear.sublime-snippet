@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+console.clear()
+]]></content>
+	<tabTrigger>ccl</tabTrigger>
+	<scope>source.js, source.jsx, source.ts</scope>
+	<description>console.clear</description>
+</snippet>

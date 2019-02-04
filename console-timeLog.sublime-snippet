@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+console.timeLog(${1:label})
+]]></content>
+	<tabTrigger>ctl</tabTrigger>
+	<scope>source.js, source.jsx, source.ts</scope>
+	<description>console.timeLog</description>
+</snippet>

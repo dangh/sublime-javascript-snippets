@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+console.countReset(${1:label?})
+]]></content>
+	<tabTrigger>ccr</tabTrigger>
+	<scope>source.js, source.jsx, source.ts</scope>
+	<description>console.countReset</description>
+</snippet>
